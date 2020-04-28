@@ -2,6 +2,5 @@ language: node_js
 
 jobs: 
   include:
-    
-stage: test
-script: /k clean test
+      stage: test
+      script: /k clean test
