@@ -33,7 +33,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <PublicRoute path="/signin" component={SignIn} exact />
-          <div id="container" className="">
+          <div id="container" className="" data-testid="container">
             <div className="container-fluid page-body-wrapper">
               <Route component={Asider} />
               <Route component={Nav} />

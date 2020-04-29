@@ -1,10 +1,4 @@
 language: node_js
-
-jdk:
-   -openjdk8:
-script: ./k clean test
-
-jobs: 
-  include:
-    -stage: test
-      script: ./k clean test
+  job:
+    stage: test
+     script: ./k clean
